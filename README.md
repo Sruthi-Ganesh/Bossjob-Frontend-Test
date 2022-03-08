@@ -1,5 +1,18 @@
 # Bossjob Frontend Test
 
+Use https://sruthi-ganesh.github.io/Bossjob-Frontend-Test/ to see the app changes.
+
+## Setup
+
+To build locally 
+1. Clone the repo
+2. Run `npm run webpack-dev` on the root directory
+
+To run tests
+1. Clone the repo
+2. Run `npm test` on the root directory
+
+
 ## Instruction
 Please implement the job list page as per design (job-list-design.jpg). 
 Please use this git repository as a starter kit. This has been created using CRA.
