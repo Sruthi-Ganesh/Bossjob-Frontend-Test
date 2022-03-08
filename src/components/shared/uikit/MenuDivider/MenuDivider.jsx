@@ -31,12 +31,12 @@ const MenuLeftDivider = (props) => (
 );
 
 MenuLeftDivider.propTypes = {
-	children: PropTypes.arrayOf(PropTypes.oneOfType([
+	children: PropTypes.oneOfType([
 		PropTypes.shape({
 			type: PropTypes.oneOf([ImageDescriptor]),
 		}),
 		PropTypes.node,
-	])),
+	]),
 	className: PropTypes.string,
 };
 
@@ -49,12 +49,12 @@ const MenuRightDivider = (props) => (
 );
 
 MenuRightDivider.propTypes = {
-	children: PropTypes.arrayOf(PropTypes.oneOfType([
+	children: PropTypes.oneOfType([
 		PropTypes.shape({
 			type: PropTypes.oneOf([ImageDescriptor]),
 		}),
 		PropTypes.node,
-	])),
+	]),
 	className: PropTypes.string,
 };
 
