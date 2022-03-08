@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Bossjob-Frontend-Test/static/css/main.16cf803b.css",
-    "main.js": "/Bossjob-Frontend-Test/static/js/main.e76193e2.js",
+    "main.css": "/Bossjob-Frontend-Test/static/css/main.a6f14849.css",
+    "main.js": "/Bossjob-Frontend-Test/static/js/main.eb47673d.js",
     "static/media/Logo.svg": "/Bossjob-Frontend-Test/static/media/Logo.6c18594934fe87b9f9f9f5b63a55578a.svg",
     "static/media/search.svg": "/Bossjob-Frontend-Test/static/media/search.ef4e0efd7a75d79ae9f150af2bced496.svg",
     "static/media/location.svg": "/Bossjob-Frontend-Test/static/media/location.24e32796bb132ae0b1e041cd093bb42d.svg",
     "index.html": "/Bossjob-Frontend-Test/index.html",
-    "main.16cf803b.css.map": "/Bossjob-Frontend-Test/static/css/main.16cf803b.css.map",
-    "main.e76193e2.js.map": "/Bossjob-Frontend-Test/static/js/main.e76193e2.js.map"
+    "main.a6f14849.css.map": "/Bossjob-Frontend-Test/static/css/main.a6f14849.css.map",
+    "main.eb47673d.js.map": "/Bossjob-Frontend-Test/static/js/main.eb47673d.js.map"
   },
   "entrypoints": [
-    "static/css/main.16cf803b.css",
-    "static/js/main.e76193e2.js"
+    "static/css/main.a6f14849.css",
+    "static/js/main.eb47673d.js"
   ]
 }
