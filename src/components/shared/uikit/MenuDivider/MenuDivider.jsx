@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import { ImageDescriptor } from '../../../Job/ImageDescriptor';
 
 
 import './MenuDivider.css';
@@ -30,6 +31,12 @@ const MenuLeftDivider = (props) => (
 );
 
 MenuLeftDivider.propTypes = {
+	children: PropTypes.arrayOf(PropTypes.oneOfType([
+		PropTypes.shape({
+			type: PropTypes.oneOf([ImageDescriptor]),
+		}),
+		PropTypes.node,
+	])),
 	className: PropTypes.string,
 };
 
@@ -42,6 +49,12 @@ const MenuRightDivider = (props) => (
 );
 
 MenuRightDivider.propTypes = {
+	children: PropTypes.arrayOf(PropTypes.oneOfType([
+		PropTypes.shape({
+			type: PropTypes.oneOf([ImageDescriptor]),
+		}),
+		PropTypes.node,
+	])),
 	className: PropTypes.string,
 };
 
